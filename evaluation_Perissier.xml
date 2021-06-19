@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead SYSTEM "ead.dtd">
+<!-- Pour cet encodage, la structure et la mise en page de l'instrument de recherche d'origine ont été, autant que faire se peut, respectées. -->
+<ead>
+    <eadheader>
+        <eadid/>
+        <filedesc>
+            <titlestmt>
+                <!-- Il a été choisi de ne pas signifier les cotes du fonds dans l'en-tête pour les indiquer lors de la description archivistique (<archdesc>). -->
+                <!-- La terme "répertoire" implique que le niveau de description le plus bas rencontré serait, en théorie, le dossier. -->
+                <titleproper>REPERTOIRE</titleproper>
+            </titlestmt>
+            <publicationstmt>
+                <!-- Ici, l'utilisation des balises <lb/> a été privilégiée afin de reproduire la mise en page de la page de titre. -->
+                <publisher>ACHIVES NATIONALES<lb/>SECTION DES MISSIONS<lb/>CENTRE DES ARCHIVES CONTEMPORAINES</publisher>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>Cet instrument de recherche a été encodé en XML conformément à la DTD EAD 2002
+                par Léa Perissier dans le cadre du devoir final du module 2408 du master 2 TNAH de
+                l'École nationale des chartes.</creation>
+            <langusage>Instrument de recherche rédigé en <language langcode="fre">français</language>.</langusage>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="fonds">
+        <!-- Nous considérons nous situer ici au niveau de description correspondant au fonds du fait de sa mention à la page 3 de l'instrument de 
+             recherche : "Classement, organisation et intérêt du fonds". -->
+        <did>
+            <unitid>COTE CAC : 20180515</unitid>
+            <unittitle>CABINET DE MANUEL VALLS, PREMIER MINISTRE DE 2014 Ā 2016.</unittitle>
+            <unitdate normal="2014/2016">2014-2016</unitdate>
+            <!-- Aucune notice d'autorité a été trouvée pour les producteurs. -->
+            <origination>DOSSIERS DE BERNARD SALZMANN ET DE MAUD BAILLY, CONSEILLERS EN CHARGE DE
+                L’ÉCONOMIE, DES FINANCES ET DES ENTREPRISES.</origination>
+            <physdesc>
+                <!-- Ces informations sont tirées de la page de titre. Du fait de leur généralité, elles ne sont pas encodées dans des balises spécifiques 
+                    comme <dimensions> et <extent> et pourraient être supprimées. -->
+                SUPPORT………………………………………………CARTONS
+                <!-- Ces informations sont tirées de la page d'introduction. -->
+                <dimensions unit="boîte">11 cartons DIMAB</dimensions>
+                <extent unit="mètre linéaire">,soit 4 m.l.</extent>
+            </physdesc>
+            <physloc>SCN Archives nationales, site de Pierrefitte</physloc>
+        </did>
+        <acqinfo>
+            <p>Protocole de versement.</p>
+        </acqinfo>
+        <accessrestrict>
+            <!-- Les informations concernant les conditions d'accès sont situées sur la page de titre et sur la page d'introduction. -->
+            <p>ART.9 : 50 ANS (PROTECTION DE LA VIE PRIVÉE)</p>
+            <p>ART.1-3, 5-6, 8, 11 : 25 ANS (SECRET DES DÉLIBÉRATIONS DU GOUVERNEMENT)</p>
+            <p>ART. 4, 7, 10 : 50 ANS (SECRET DE LA DÉFENSE NATIONALE)</p>
+            <!-- La informations qui suivent sont situées sur la page d'introduction. -->
+            <p>La communicabilité du versement est définie par le protocole de versement d’archives
+                signé par Manuel Valls, Premier ministre.</p>
+            <p>Les articles 4, 7 et 10 comprennent des documents classifiés « confidentiel défense ».</p>
+        </accessrestrict>
+        <scopecontent>
+            <!-- Pour cette partie de l'instrument de recherche, il a été choisi d'utiliser un <scopecontent> en référence au titre du paragraphe qui suggère une présentation du contenu. -->
+            <!-- Il aurait été possible d'encoder la première phrase du paragraphe dans un <acqinfo> en ce qu'il décrit la création du fonds en indiquant et datant la provenance des deux versements le composant. 
+                 Seulement, la présentation des producteurs du fonds permet de considérer cette phrase comme une présentation de contenu. -->
+            <!-- Ainsi, afin de ne pas dénaturer le paragraphe et suivre la logique interne de l'instrument de recherche, l'utilisation d'un <scopecontent> a été effectuée. -->
+            <head>Présentation du contenu</head>
+            <p>Ce versement résulte de la fusion de deux versements, réalisés pour le premier par
+                Bernard Salzmann en août 2015 et pour le second en janvier 2017, par Frédéric
+                Brédillot, conseiller pour l’économie, les finances et les entreprises au cabinet du
+                Premier ministre, Bernard Cazeneuve, mais qui regroupe en réalité les archives de
+                Maud Bailly, conseillère économie, finances, entreprises au cabinet du Premier
+                ministre, Manuel Valls. Ces deux versements couvrent ainsi la totalité du cabinet
+                Valls, de 2014 à 2016.</p>
+        </scopecontent>
+        <bioghist>
+            <!-- Il a été choisi de réunir dans un même <bioghist>, deux éléments distincts contenus chacun dans un sous-élément <bioghist> afin de signfier leur différent emplacement
+                 dans l'instrument de recherche. -->
+            <bioghist>
+                <!-- Le premier sous-élément concerne les notices biographiques des producteurs. -->
+                <!-- La mise en page d'origine a été conservée grâce à l'ajout de la balise <head> afin de signifier le titre. -->
+                <head>Notices biographiques</head>
+                <p>Bernard Salzmann est né le 29 novembre 1972 à Nancy (Meurthe-et-Moselle).
+                    Ancien élève de l’École polytechnique, Bernard Salzmann est diplômé d’études approfondies
+                    de macroéconomie à l’Université de Paris-I, de l’Institut des actuaires français (IAF) et de
+                    l’École nationale de la statistique et de l’administration économique (ENSAE).
+                    Nommé administrateur de l’Institut national de la statistique et des études économiques
+                    (INSEE) en 1998, il débute sa carrière comme responsable des études économiques et des
+                    prévisions relatives aux évolutions salariales et aux 35 heures, au sein du bureau emploi et
+                    salaires, à la Direction de la prévision du ministère de l’Économie, des finances et de
+                    l’industrie.
+                    En 1999, il devient responsable des études économiques et des prévisions relatives au
+                    vieillissement, à la famille et à l’exclusion au sein du bureau des transferts sociaux, au sein de
+                    la même direction.
+                    Bernard Salzmann entre en 2001 au cabinet de Laurent Fabius, ministre de l’Économie, des
+                    finances et de l’industrie, en qualité de conseiller technique pour les comptes sociaux, avant
+                    d’être nommé dès 2002 conseiller financier adjoint à Washington (États-Unis).
+                    De retour en France en 2006, il devient chef du bureau de l’Union économique et monétaire
+                    de la Direction générale du Trésor et de la politique économique, au ministère de l’Économie,
+                    des finances et de l’emploi.
+                    Promu administrateur hors classe en 2007, Bernard Salzmann rejoint la même année la
+                    Société générale, tout d’abord comme directeur mondial de l’audit, puis à partir de 2013
+                    comme directeur régional Amiens Haute-Picardie.
+                    Il est nommé en 2014 conseiller économie, finances, entreprises (arrêté du 30 avril 2014) au
+                    cabinet du Premier ministre, Manuel Valls, et conserve cette fonction jusqu’en juillet 2015
+                    (arrêté du 31 juillet 2015).
+                    Depuis septembre 2015, Bernard Salzmann est directeur administratif de la Société générale.</p>
+                <p>Maud Bailly est née le 14 janvier 1979 à Paris.
+                    Diplômée de l’École normale supérieure (ENS) et de l’Institut d’études politiques (IEP) de
+                    Paris, elle est ancienne élève de l’École nationale d’administration (ÉNA, promotion
+                    République – 2005-2007). Nommée inspectrice des finances, elle débute en 2007 à
+                    l’Inspection générale des finances.
+                    À la suite d’une formation sur le terrain aux métiers du monde ferroviaire, Maud Bailly
+                    rejoint en 2011 la Société nationale des chemins de fer français (SNCF), tout d’abord comme
+                    directrice de la gare de Paris-Montparnasse, puis en 2014 comme directrice des trains.
+                    Elle entre en mai 2015 au cabinet de Manuel Valls, Premier ministre, en qualité de conseillère
+                    économie, finances, entreprises (arrêté du 4 mai 2015) et conserve ces fonctions jusqu’à la
+                    démission de Manuel Valls en décembre 2016.
+                    Depuis 2017, Maud Bailly est Chief Digital Officier et membre du comité exécutif
+                    d’AccorHôtels.
+                    Elle est nommée par ailleurs membre du Conseil national du numérique en mai 2018.
+                    Depuis 2008, Maud Bailly est également enseignante en gestion, management public et
+                    économie numérique.</p>
+            </bioghist>
+            <bioghist>
+                <!-- Le contenu du second <bioghist> fait référence à l'histoire administrative du cabinet de M. Valls grâce à une liste chronologique des différentes personnes travaillant au sein de ce dernier. -->
+                <!-- Bien que se trouvant plus tard dans l'instrument de recherche, il a été choisi de placer cette partie joint au premier <bioghist> car elle se référait directement aux deux producteurs
+                     en désignant leus différents conseillers. -->
+                <!-- Il n'a pas été choisi d'utiliser un élément <chronlist> car il nous a semblé que l'instrument de recherche en serait dénaturé et que l'ajout des fonctions des différentes personnes dans un <event>
+                     rendrait le tout peu lisible (et ce, d'autant plus, que différentes fonctions coexistent à l'intérieur des conseillers par exemple). -->
+                <!-- Enfin, la mise en page de l'instrument de recherche a été respectée à l'aide des éléments <list>, <head> et <item>. -->
+                <p>Au sein du cabinet de Manuel Valls, Premier ministre, le pôle Economie, finances, fiscalité,
+                   comptes publics et entreprises s’organisait de la façon suivante :</p>
+                <list>
+                    <head>Chef de pôle :</head>
+                    <item>- Bernard Salzmann, conseiller économie, finances, entreprises, d’avril 2014 à juillet
+                    2015, puis</item>
+                    <item>- Maud Bailly, conseillère économie, finances, entreprises, de mai 2015 à décembre
+                    2016.</item>
+                </list>
+                <list>
+                    <head>Conseillers :</head>
+                    <item>- Florence Philbert, conseillère comptes publics, d’avril 2014 à juillet 2015, puis
+                    Stanislas Godefroy, conseiller comptes publics, de juillet 2015 à décembre 2016 ;</item>
+                    <item>- Frédéric Brédillot, conseiller fiscalité et prélèvements obligatoires, d’avril 2014 à
+                    décembre 2016 ;</item>
+                    <item>- Cédric Audenis, conseiller macro-économie, d’avril 2014 à décembre 2016 ;</item>
+                    <item>- Sébastien Dessillons, conseiller entreprises, affaires industrielles, d’avril 2014 à
+                    février 2016, puis Romain Bonenfant, conseiller entreprises, affaires industrielles, de
+                    janvier à décembre 2016 ;</item>
+                    <item>- Jérémie Pellet, conseiller financement de l’économie, d’avril 2014 à juillet 2016, puis
+                    Marianne Thiery, conseillère financement de l’économie, de juillet à décembre 2016</item>
+                </list>
+                <list>
+                    <head>Conseillers techniques :</head>
+                    <item>- Marc-Henri Serre, conseiller technique budget, d’avril 2014 à octobre 2015, puis
+                    Vincent Cristia, conseiller technique budget, d’octobre 2015 à décembre 2016 ;</item>
+                    <item>- Georges-Étienne Faure, conseiller technique numérique, de juillet 2014 à décembre
+                    2016.</item>
+                </list>
+                <p>Il convient de signaler également l’implication forte de Véronique Bédague-Hamilius,
+                   directrice du cabinet du Premier ministre, dans les dossiers économiques du mandat de
+                   Manuel Valls.</p>
+            </bioghist>
+        </bioghist>
+        <scopecontent>
+            <!-- L'élément <scopecontent> a été sélectionné pour les informations suivantes, par sa capacité à rapporter la description du contenu et du classement. -->
+            <!-- De plus, cet élément visant à indiquer au lecteur l'intérêt du fonds et ses points forts, son emplacement parait ici justifié à travers le titre ainsi que les derniers paragraphes. -->
+            <!-- Il a été choisi de respecter la mise en page originel en signifiant des paragraphes pour chaque ligne sautée. -->
+            <head>Classement, organisation et intérêt du fonds</head>
+            <p>Issu de la fusion du versement de Bernard Salzmann et des archives de Maud Bailly, ce
+                versement se compose pour l’essentiel de notes de cabinet et de dossiers de réunion et
+                d’entretien, du Premier ministre le plus souvent, ventilés à l’origine par grands thèmes.</p>
+            <p>Dans un souci d’intelligibilité et de concision, ce versement s’organise en trois grandes
+                parties : le fonctionnement du cabinet, les finances publiques et la politique économique.</p>
+            <p>Afin de tenir compte de la double provenance des documents constitutifs de ce versement, le
+                fonctionnement du cabinet se subdivise en deux parties, correspondant aux dossiers généraux
+                de Bernard Salzmann d’une part, et de Maud Bailly d’autre part.
+                De façon inhabituelle, ces dossiers généraux ne sont pas des minutiers chronologiques, mais
+                des collections de lettres, notes et notes de cabinet émanant pour la plupart des conseillers
+                techniques, centralisées et visées par le conseiller chef de pôle. Ce premier ensemble est
+                complété dans les deux cas par une collection de dossiers de réunion et d’entretien, dont
+                chacun a été décrit afin de mieux rendre compte des activités des conseillers.</p>
+            <p>À l’instar des dossiers généraux, les finances publiques distinguent d’une part un dossier
+                général de suivi et d’autre part une collection d’entretiens et de réunions. Le thème principal
+                de cette partie est la préparation du budget, formalisée par les projets de loi de finances, pour
+                2016 et 2017, dans le contexte très contraint du redressement des finances publiques et de la
+                maîtrise de l’endettement. Les fréquents entretiens avec Michel Sapin, ministre des Finances
+                et des comptes publics, et Christian Eckert, secrétaire d’État chargé du Budget, mais aussi les
+                autres membres du gouvernement, rendent compte de la difficulté des négociations et de la
+                faiblesse de la marge de manoeuvre pour réaliser les objectifs politiques du gouvernement.</p>
+            <p>La politique économique regroupe sous ce terme six sous-parties, qui correspondent à six pans
+                de l’action gouvernementale, classées du général au particulier.
+                Comme indiqué précédemment, chaque partie comporte un dossier général et une collection
+                d’entretiens et de réunions.
+                En ce qui concerne l’Union européenne tout d’abord, les sujets majeurs sont les échanges du
+                gouvernement avec la Commission européenne concernant le redressement des finances
+                publiques, dans le cadre notamment de la procédure de surveillance pour déficit excessif
+                engagée contre la France, et la situation – ainsi que l’élaboration du plan d’aide – de la Grèce.
+                Un des rares dossiers thématiques du versement est consacré aux conséquences du
+                référendum sur l'appartenance du Royaume-Uni à l'Union européenne de juin 2016 et au
+                choix du pays de quitter l’Union (Brexit).</p>
+            <p>La modernisation et la réforme de l’État détaillent diverses mesures, comme la réforme de la
+                Dotation globale de fonctionnement (DGF), la création de la Direction des achats de l’État ou
+                encore le projet d’instauration du prélèvement à la source de l’impôt sur le revenu.</p>
+            <p>Le financement de l’économie et l’investissement public désignent l’ensemble des mesures qui
+                visent à soutenir et développer l’activité économique, par l’intermédiaire notamment du
+                renforcement de la compétitivité des entreprises et de l’attractivité de la France.
+                Parmi elles, on peut citer la loi du 6 août 2015 pour la croissance, l'activité et l'égalité des
+                chances économiques, dite loi Macron, ainsi que le projet de loi « Nouvelles opportunités
+                économiques » dit Macron 2 et finalement non abouti, dont certains dispositions ont été
+                reprise dans la loi du 9 décembre 2016 relative à la transparence, à la lutte contre la corruption
+                et à la modernisation de la vie économique, dite loi Sapin 2, ou encore la mise en oeuvre du
+                Programme d’investissements d’avenir (PIA).
+                En miroir de ce que l’on peut observer dans la partie « finances publiques », les entretiens
+                avec Emmanuel Macron, ministre de l’Économie, de l’industrie et du numérique, sont très
+                fréquents.</p>
+            <p>En ce qui concerne les entreprises, les généralités comportent deux sous-dossiers consacrés à
+                la réforme du crédit d'impôt pour la compétitivité et l'emploi (CICE) d’une part, et aux
+                mesures spécifiques en faveur des très petites entreprises (TPE) et des petites et moyennes
+                entreprises (PME).
+                La collection des entretiens et réunions fait état des nombreux échanges avec les dirigeants de
+                grandes entreprises françaises et étrangères. Parmi les sujets saillants, figurent la
+                « refondation de la filière nucléaire française », qui requiert le redressement d’Areva et son
+                rapprochement d’Electricité de France (EDF), ou encore la situation du groupe Alstom à
+                Belfort (Territoire-de-Belfort).
+                On peut relever la fréquence des entretiens de Maud Bailly, avec Martin Vial, Commissaire
+                aux participations de l’État, chargé de veiller aux investissements de l’État actionnaire dans
+                des entreprises qu’il juge stratégiques.</p>
+            <p>En matière d’économie numérique, le sujet principal concerne l’élaboration et la mise en
+                oeuvre de la stratégie numérique du gouvernement, concrétisée en particulier par la loi pour
+                une République numérique, promulguée le 7 octobre 2016 (loi Lemaire), et le développement
+                de l’économie collaborative, conformément à la mission confiée à Pascal Terrasse, député de
+                l’Ardèche, en octobre 2015.</p>
+            <p>Enfin, le dernier dossier consacré au tourisme est peu développé. La préoccupation majeure
+                porte sur les conséquences des attentats de novembre 2015 et sur les moyens d’aider ce
+                secteur d’activité.</p>
+            <p>Les très nombreux dossiers d’entretien et de réunion de ce versement offrent une description
+                fine des activités du pôle économique, aussi bien au niveau du Premier ministre et de la
+                présidence de la République que du cabinet. Ils constituent à ce titre une source d’information
+                de premier plan pour éclairer les enjeux et les politiques économiques de cette période.</p>
+        </scopecontent>
+        <processinfo>
+            <!-- Il a été choisi de représenter le paragraphe suivant dans un <processinfo> car il peut représenter une note de l'archiviste sur le traitement du fonds. -->
+            <!-- En outre, étant le dernier élément de la partie sur le "Classement, organisation et intérêt du fonds", la linéarité de l'instrument de recherche ne s'en trouve pas affectée. -->
+            <p>Les éliminations ont porté sur les doubles, les publications et les documents conservés par
+                ailleurs.</p>
+        </processinfo>
+        <relatedmaterial>
+            <!-- La partie ci-dessous a été encodée dans un <relatedmaterial> en ce qu'elle précise les sources complémentaires au fonds, sans entretenir un lien de provenance avec le fonds (<separatedmaterial>). --> 
+            <!-- Il n'a pas été choisi d'utiliser un <otherfindaid>, les sources complémentaires renvoyant ici à d'autres versements et non, aux inventaires de ces versements. -->
+            <!-- La mise en page de l'instrument de recherche a été respectée grâce aux éléments <list>, <head> et <item>. -->
+            <head>Sources complémentaires</head>
+            <p>SCN Archives nationales</p>
+            <list>
+                <head>Cabinet de Manuel Valls, Premier ministre</head>
+                <item>Les archives versées par les membres du Pôle économie sont en attente de classement.</item>
+            </list>
+            <list>
+                <head>Cabinet de Jean-Marc Ayrault, Premier ministre</head>
+                <item>20150156	Dossiers de Julien Rencki et Guillaume Chabert, conseillers successifs pour
+                    l’économie, les finances et les entreprises. 2012-2014</item>
+                <item>20150201	Dossiers de Nicolas Namias, conseiller technique pour le financement de
+                    l’économie, les entreprises et les affaires économiques internationales.</item>
+                <item>20150202	Dossiers de Pierre Bachelier-Iltis, conseiller technique pour les affaires
+                    industrielles. 2012-201</item>
+                <item>20150203	Dossiers de Fabien Dell, conseiller technique pour la macroéconomie et la
+                    zone euro puis pour la stratégie économique. 2012-2014</item>
+                <item>20150239	Dossiers de Philippe-Emmanuel de Beer, conseiller pour la fiscalité et les
+                    prélèvements obligatoires de juin 2012 à mars 2014. 2012-2014</item>
+            </list>
+            <list>
+                <head>Cabinet de François Fillon, Premier ministre</head>
+                <item>20140596	Dossiers de Marie-Anne Barbat-Layani, directrice-adjointe du cabinet
+                    (économie, finances et industrie, art.1-12). 2010-2012</item>
+                <item>20130373	Dossiers de Philippe Ravalet, conseiller technique pour la macroéconomie et
+                    l'emploi de juin 2007 à juin 2008 et de Clotilde L’Angevin, chargée de
+                    mission puis conseillère technique pour la macroéconomie et les prévisions
+                    économiques de juillet 2008 à juin 2009.</item>
+                <item>20144694	Dossiers de Franck Demaille et Romain Launay, conseillers techniques pour
+                    le financement des entreprises, les petites et moyennes entreprises,
+                    l’artisanat, les services, la concurrence, la consommation et le tourisme,
+                    respectivement de juin 2007 à novembre 2009 et de novembre 2009 à
+                    janvier 2012</item>
+                <item>20144724	Dossiers de Ferdinand Tomarchio, conseiller technique pour l’industrie, les
+                    services et la compétitivité de février à mai 2012.</item>
+            </list>
+            <list>
+                <head>Cabinet de Dominique de Villepin, Premier ministre</head>
+                <item>20120100	Dossiers d’Alain Demarolle, conseiller économique et financier de juin
+                    2005 à mars 2007, de Mathilde Lemoine, conseillère technique pour la
+                    macroéconomie et la fiscalité de juin 2005 à août 2006 et d'Olivier Cuny,
+                    conseiller technique pour la macroéconomie et les affaires économiques
+                    internationales de septembre 2006 à mai 2007. 2005-2007</item>
+                <item>20120101	Dossiers d'Alain Quinet, directeur-adjoint du cabinet pour les affaires
+                    économiques de juin 2005 à avril 2007. 2003-2007</item>
+                <item>20120004	Dossiers d’Olivier Cuny, conseiller technique pour la macroéconomie et les
+                    affaires économiques internationales (art. 14-15). 2002-2007</item>
+            </list>
+        </relatedmaterial>
+        <arrangement>
+            <!-- Le sommaire a été représenté par un <arrangement> par sa qualité à indiquer la structure de classement d'un fonds. -->
+            <!-- La mise en page hiérarchique a été respectée par l'utilisation des éléments <list> et <item>. -->
+            <head>SOMMAIRE</head>
+            <list>
+                <item>FONCTIONNEMENT DU CABINET………………………………………..ART. 1-3
+                    <list>
+                        <item>Bernard Salzmann…………………………………………………...Art. 1-2</item>
+                        <item>Maud Bailly…………………………………………………………Art. 2 (suite)-3</item>
+                    </list>
+                </item>
+                <item>FINANCES PUBLIQUES…………………………………….………………ART. 3 (suite)-4</item>
+                <item>POLITIQUE ÉCONOMIQUE………………………………………………...ART. 5-11
+                    <list>
+                        <item>Union européenne…………………………………………………...Art. 5</item>
+                        <item>Modernisation et réforme de l’État…………………………………Art. 6</item>
+                        <item>Financement de l’économie et investissement public……………...Art.
+                            7-8</item>
+                        <item>Entreprises…………………………………………………………..Art. 8 (suite)-10</item>
+                        <item>Économie numérique……………………………………….……….Art. 10 (suite)-11</item>
+                        <item>Tourisme………………………………………………..……..…….Art. 11 (suite)</item>
+                    </list>
+                </item>
+            </list>
+        </arrangement>
+        <dsc>
+            <c level="subfonds" id="sf3">
+                <!-- Dans la notice sur le classement du fonds, il est indiqué que ce dernier est divisé en trois grandes parties que nous avons choisi de représenter par des sous-fonds, considérant
+                     qu'elles forment un ensemble d'archives correspondant aux divisions thématiques effectuées par les producteurs. En effet, il est indiqué que le versement était "ventilés à l'origine 
+                     par grands thèmes" à la page 4. Sans davantage d'informations sur ces grands thèmes, il a été choisi de considérer les trois grandes parties thématiques du classement comme ces derniers. -->
+                <!-- Ici, nous commencerons la description au niveau supérieur du sous-fonds portant sur la politique économique en indiquant le chemin, niveau par niveau, vers le niveau inférieur 
+                     marquant le début de notre encodage (pages 40/41). -->
+                <!-- Il n'a pas été choisi d'indexer les noms de personne, principalement Manuel Valls, car cela nous semblait alourdir l'encodage et superflu (le fonds portant sur son cabinet). 
+                     En revanche, la normalisation des dates a été effectuée suivant la norme ISO 8601. -->
+                <did>
+                    <unitid>ART. 5-11</unitid>
+                    <unittitle>POLITIQUE ÉCONOMIQUE</unittitle>
+                </did>
+                <c level="series" id="sf3_4">
+                    <!-- Le niveau de description choisi pour les six parties divisant la troisième partie du fonds, a été celui d'une série par sa caractéristique de désigner le rassemblement d'un
+                         ensemble d'archives se rapportant à un même sujet ici, les entreprises. -->
+                    <did>
+                        <unitid>ART. 8(SUITE)-10</unitid>
+                        <unittitle>ENTREPRISES</unittitle>
+                    </did>
+                    <c level="collection" id="sf3_4_2">
+                        <!-- Le niveau de description "collection" a été déterminé en référence à la description du fonds indiquant à la page 4 que chaque sous-partie comporte des dossiers généraux et
+                             une collection d'entretiens et de réunions. De fait, il s'agit d'un rassemblement artificiel de documents en fonction de critères communs sans considérer la provenance mais 
+                             plutôt le contenu des documents. Ici, les documents se rapportent tous à des entretiens et/ou des réunions. -->
+                        <did>
+                            <unitid>Art. 9 (suite)-10</unitid>
+                            <unittitle>Entretiens et réunions</unittitle>
+                        </did>
+                        <c level="otherlevel" otherlevel="article" id="sf3_4_2_2">
+                            <!-- Pour ce niveau de description où aucune information sémantique est apportée (à l'instar d'un titre), il a été choisi d'utiliser l'attribut otherlevel pour indiquer 
+                                 le niveau de description correspondant à l'article qui correspondrait à une unité matérielle de conditionnement. -->
+                            <did>
+                                <unitid>Art. 10</unitid>
+                                <unitdate normal="2016">2016</unitdate>
+                            </did>
+                            <c level="file" id="sf3_4_2_2_48">
+                                <!-- Les niveaux les plus bas de la description archivistique sont représentés par un dossier lorsque plusieurs documents sont rapportés dans le <materialspec>.
+                                     En revanche, si un seul document est rapporté par cet élément, il a été privilégié d'utiliser le niveau "item" pour désigner la pièce. -->
+                                <did>
+                                    <unitid>AN-2018-0515-10</unitid>
+                                    <unittitle>Préparation de l'entretien de Manuel Valls, Premier
+                                        ministre, avec Christophe Sirugue, secrétaire d'Etat à
+                                        l'Industrie, et Alain Vidalies, secrétaire d'État aux
+                                        transports, à la mer et à la pêche, au sujet du plan de
+                                        sauvetage de l'usine Alstom de Belfort
+                                        (Territoire-de-Belfort), le 25 novembre 2016.</unittitle>
+                                    <materialspec>NOTE DE CABINET / DECLARATION</materialspec>
+                                    <unitdate normal="2016/11">11-2016</unitdate>
+                                </did>
+                            </c>
+                            <c level="file" id="sf3_4_2_2_49">
+                                <did>
+                                    <unitid>AN-2018-0515-10</unitid>
+                                    <unittitle>Préparation de la réunion de cabinet consacrée au financement et à la
+                                        réalisation de la liaison ferroviaire entre Paris et l'aéroport de Roissy -
+                                        Charles-de-Gaulle (Val-d'Oise), dénommée CDG Express, le 28 novembre
+                                        2016.</unittitle>
+                                    <materialspec>MESSAGES / COMPTE RENDU DE REUNION / NOTE DE CABINET / AMENDEMENT /
+                                        ARGUMENTAIRE / FICHES / MEMORANDUM</materialspec>
+                                    <unitdate normal="2016-11">11-2016</unitdate>
+                                </did>
+                            </c>
+                            <c level="file" id="sf3_4_2_2_50">
+                                <did>
+                                    <unitid>AN-2018-0515-10</unitid>
+                                    <unittitle>Préparation de l'entretien de Manuel Valls, Premier ministre, avec Antoine
+                                        Frérot, président-directeur général de Veolia, le 6 décembre 2016.</unittitle>
+                                    <materialspec>NOTE DE CABINET / BIOGRAPHIE</materialspec>
+                                    <unitdate normal="2016-12-01">01-12-2016</unitdate>
+                                </did>
+                            </c>
+                        </c>
+                    </c>
+                </c>
+                <c level="series" id="sf3_5">
+                    <did>
+                        <unitid>ART. 10 (SUITE)-11</unitid>
+                        <unittitle>ECONOMIE NUMÉRIQUE</unittitle>
+                    </did>
+                    <c level="recordgrp" id="sf3_5_1">
+                        <!-- Dans la description du classement, il est indiqué que cette partie est composée d'une collection et d'un dossier général.
+                             Dans notre encodage, du fait de l'attribution du niveau "file" aux éléments les plus bas hiérarchiquement, nous avons choisi 
+                             d'utiliser l'élément "recordgrp" considérant que ce dossier général constitue un groupe de documents de la série "Économie numérique", 
+                             se rapportant à une même thématique : le suivi et la préparation du la loi pour une République numérique. -->
+                        <did>
+                            <unitid>Art. 10 (suite)</unitid>
+                            <unittitle>Généralités</unittitle>
+                        </did>
+                        <c level="file" id="sf3_5_1_1">
+                            <did>
+                                <unitid>AN-2018-0515-10</unitid>
+                                <unittitle>Suivi des questions générales relatives au développement de l'économie
+                                    numérique et préparation de la loi pour une République numérique (dite loi
+                                    Lemaire) du 7 octobre 2016.</unittitle>
+                                <materialspec>NOTES DE CABINET / DOCUMENTS DE PRESENTATION / DOCUMENTS DE SYNTHESE /
+                                    MESSAGES / FICHES / NOTES / DOSSIER DE PRESSE / PROJETS DE LOI / PLAN D'ACTION /
+                                    ARGUMENTAIRE / COMMUNICATION / LETTRE</materialspec>
+                                <unitdate normal="2015-04/2016-11">04-2015/11-2016</unitdate>
+                            </did>
+                        </c>
+                    </c>
+                    <c level="collection" id="sf3_5_2">
+                        <did>
+                            <unitid>Art. 11</unitid>
+                            <unittitle>Entretiens et réunions</unittitle>
+                        </did>
+                        <c level="file" id="sf3_5_2_1">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation de la réunion consacrée au financement du Plan national
+                                    d'action pour un gouvernement ouvert (open government), le 5 juin 2015.</unittitle>
+                                <materialspec>PLAN D'ACTION / PLANNING / NOTES</materialspec>
+                                <unitdate normal="2015-06">06-2015</unitdate>
+                            </did>
+                        </c>
+                        <c level="file" id="sf3_5_2_2">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation du déplacement de Manuel Valls, Premier ministre, pour
+                                    l'annonce de la stratégie numérique du gouvernement, au théâtre de la
+                                    Gaîté lyrique (Paris), le 18 juin 2015.</unittitle>
+                                <materialspec>PROGRAMME / LISTE DES PARTICIPANTS / NOTE DE CABINET / ALLOCUTION / DOCUMENT DE
+                                    PRESENTATION</materialspec>
+                                <unitdate normal="2015-06">06-2015</unitdate>
+                            </did>
+                        </c>
+                        <c level="file" id="sf3_5_2_3">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation et déroulement de la réunion de cabinet consacrée au projet de
+                                    loi pour une République numérique, le 23 juin 2015.</unittitle>
+                                <materialspec>COMPTES RENDUS DE REUNION / PROJET DE LOI / EXPOSE DES MOTIFS / NOTE / FICHES /
+                                    MESSAGES / NOTES MANUSCRITES</materialspec>
+                                <unitdate normal="2014-12/2015-07">12-2014/07-2015</unitdate>
+                            </did>
+                        </c>
+                        <c level="file" id="sf3_5_2_4">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation et déroulement du COPIL numérique du 7 juillet 2015.</unittitle>
+                                <materialspec>MESSAGES / NOTES / FICHES</materialspec>
+                                <unitdate normal="2015-07">07-2015</unitdate>
+                            </did>
+                        </c>
+                        <c level="file" id="sf3_5_2_5">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation de la réunion de relecture du projet de loi pour une République
+                                    numérique, le 21 juillet 2015.</unittitle>
+                                <materialspec>PROJET DE LOI / MESSAGES / NOTE / NOTE MANUSCRITE / TABLEAU RECAPITULATIF</materialspec>
+                                <unitdate normal="2015-07">07-2015</unitdate>
+                            </did>
+                        </c>
+                        <c level="file" id="sf3_5_2_6">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation de la présentation par Manuel Valls, Premier ministre, du
+                                    projet de loi pour une République numérique, à l'Hôtel de Matignon le 26
+                                    septembre 2015.</unittitle>
+                                <materialspec>NOTES DE CABINET</materialspec>
+                                <unitdate normal="2015-09">09-2015</unitdate>
+                            </did>
+                        </c>
+                        <c level="file" id="sf3_5_2_7">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation de la réunion consacrée à l'adaptation de l'Etat à l'économie
+                                    numérique, le 13 octobre 2015.</unittitle>
+                                <materialspec>MESSAGES / FICHES / NOTES / DOCUMENT DE PRESENTATION / DOCUMENT DE TRAVAIL</materialspec>
+                                <unitdate normal="2015-07/2015-10">07-2015/10-2015</unitdate>
+                            </did>
+                        </c>
+                        <c level="file" id="sf3_5_2_8">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation du déplacement de Manuel Valls, Premier ministre, pour la
+                                    présentation de la stratégie nationale pour la sécurité du numérique, à la
+                                    Maison de la Chimie (Paris), le 16 octobre 2015.</unittitle>
+                                <materialspec>PROGRAMME / NOTE DE CABINET / DOCUMENT DE PRESENTATION</materialspec>
+                                <unitdate normal="2015-10">10-2015</unitdate>
+                            </did>
+                        </c>
+                        <c level="file" id="sf3_5_2_9">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation de l'entretien de Maud Bailly, conseillère économie, finances,
+                                    entreprises au cabinet du Premier ministre, Manuel Valls, avec Pascal
+                                    Terrasse, député de l'Ardèche, concernant sa mission relative à l'économie
+                                    collaborative, le 4 novembre 2015.</unittitle>
+                                <materialspec>NOTES D'ETAPE / NOTE DE CADRAGE / MESSAGE</materialspec>
+                                <unitdate normal="2015-10">10-2015</unitdate>
+                            </did>
+                        </c>
+                        <c level="file" id="sf3_5_2_10">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation de la réunion de travail présidée par Manuel Valls, Premier
+                                    ministre, avec les acteurs de l'Internet concernant la lutte contre le
+                                    terrorisme, le 3 décembre 2015.</unittitle>
+                                <materialspec>ELEMENTS DE LANGAGE / INTRODUCTION / LISTE DES PARTICIPANTS / MESSAGES / NOTES DE
+                                    CABINET / TABLEAU RECAPITULATIF</materialspec>
+                                <unitdate normal="2015-11/2015-12">11-2015/12-2015</unitdate>
+                            </did>
+                        </c>
+                        <c level="item" id="sf3_5_2_11">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation de la réunion consacrée à la remise du rapport d'Antoine
+                                    Fouilleron, auditeur à la Cour des comptes, concernant les échanges de
+                                    données réalisés à titre onéreux entre les administrations, le 8 décembre
+                                    2015.</unittitle>
+                                <materialspec>PROJET DE RAPPORT</materialspec>
+                                <unitdate normal="2015-11">11-2015</unitdate>
+                            </did>
+                        </c>
+                        <c level="file" id="sf3_5_2_12">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation des réunions consacrées à la finalisation des propositions de
+                                    Pascal Terrasse, député de l'Ardèche, dans le cadre de sa mission relative à
+                                    l'économie collaborative, le 20 janvier et le 2 février 2016.</unittitle>
+                                <materialspec>DOCUMENT DE SYNTHESE / PROJET DE RAPPORT / ELEMENTS DE LANGAGE</materialspec>
+                                <unitdate normal="2016-01/2016-02">01-2016/02-2016</unitdate>
+                            </did>
+                        </c>
+                        <c level="file" id="sf3_5_2_13">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation de la remise à Manuel Valls, Premier ministre, du rapport de
+                                    Pascal Terrasse, député de l'Ardèche, relatif à l'économie collaborative, le
+                                    8 février 2016.</unittitle>
+                                <materialspec>LETTRE DE MISSION / RAPPORT / COMMUNIQUE DE PRESSE</materialspec>
+                                <unitdate normal="2015-10/2016-02">10-2015/02-2016</unitdate>
+                            </did>
+                        </c>
+                        <c level="file" id="sf3_5_2_14">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation de l'entretien de Manuel Valls, Premier ministre, avec John
+                                    Chambers, président - directeur général de l'entreprise informatique
+                                    américaine Cisco, le 14 avril 2016.</unittitle>
+                                <materialspec>NOTE DE CABINET / FICHE / CALENDRIER / LIVRE BLANC / DOCUMENT DE PRESENTATION</materialspec>
+                                <unitdate normal="2016-04">04-2016</unitdate>
+                            </did>
+                        </c>
+                        <c level="item" id="sf3_5_2_15">
+                            <did>
+                                <unitid>AN-2018-0515-11</unitid>
+                                <unittitle>Préparation de l'entretien de Manuel Valls, Premier ministre, avec Axelle
+                                    Lemaire, secrétaire d'État chargée du Numérique, le 6 mai 2016.</unittitle>
+                                <materialspec>NOTE DE CABINET</materialspec>
+                                <unitdate normal="2016-05-04">04-05-2016</unitdate>
+                            </did>
+                        </c>
+                    </c>
+                </c>
+            </c>
+        </dsc>
+    </archdesc>
+</ead>
