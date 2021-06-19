@@ -4,7 +4,7 @@ Ce devoir consiste en la rétroconversion d'un instrument de recherche en XML/EA
 
 # Structure du dépôt
 
-```shell
+```
 encodage_EAD
     ├── 20180515-VV.pdf                             --> Instrument de recherche à rétroconvertir
     ├── CR_Perissier.md                             --> Retour d'expérience
